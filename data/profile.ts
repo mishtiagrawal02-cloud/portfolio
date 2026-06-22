@@ -13,9 +13,9 @@ export const profile = {
   tagline: "Building toward systems that matter.",
   status: "available" as const, // "available" | "busy" | "offline"
   location: "New Delhi, India",
-  email: "mishti.agarwal@example.com", // TODO: replace with real email
-  github: "https://github.com/mishtiagarwal", // TODO: replace with real handle
-  linkedin: "https://linkedin.com/in/mishtiagarwal", // TODO: replace with real handle
+  email: "mishtiagrawal02@gmail.com", // TODO: replace with real email
+  github: "https://github.com/mishtiagrawal02-cloud", // TODO: replace with real handle
+  linkedin: "https://www.linkedin.com/in/mishti-agarwal-4b629437b", // TODO: replace with real handle
   resumeUrl: "/resume.pdf", // TODO: add real resume file to /public
 };
 
@@ -149,13 +149,13 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "project-1",
-    title: "Project title goes here",
+    title: "Stackd",
     description:
-      "One or two sentences on what this project does and why it exists. Be specific about the problem, not just the stack.",
-    stack: ["Next.js", "TypeScript", "Tailwind"],
+      "Stackd is a free, browser-only PDF merger. Add PDFs, drag to reorder, and split any file into pieces to insert another mid-document instead of only at the end.",
+    stack: ["js", "html", "css"],
     size: "large",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/mishtiagrawal02-cloud/Stackd",
+    demo: "https://stackd-jet.vercel.app/",
   },
   {
     id: "project-2",
